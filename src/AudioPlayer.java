@@ -32,6 +32,6 @@ public class AudioPlayer extends Product implements MultimediaControl {
 
     //returns the toString method from parent class and concatenates new string for Audio specs and Device Type
     public String toString(){
-        return super.toString() + String.format("Audio Spec  : %s%nType  : %n", this.audioSpecification);
+        return super.toString() + String.format("Audio Spec     : %s%nType           : %n", this.audioSpecification);
     }
 }

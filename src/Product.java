@@ -49,6 +49,6 @@ public abstract class Product implements Item {
 
     //returns manufacturer name, serial number, date and product name to caller
     public String toString (){
-        return String.format("Manufacturer  : %s%nSerial Number  : %d%nDate  : %s%nName  : %s%n", getManufacturer(), getSerialNumber(), getManufactureDate().toString(), getName());
+        return String.format("Manufacturer   : %s%nSerial Number  : %d%nDate           : %s%nName           : %s%n", getManufacturer(), getSerialNumber(), getManufactureDate().toString(), getName());
     }
 }
