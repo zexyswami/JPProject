@@ -8,7 +8,6 @@ public class AudioPlayer extends Product implements MultimediaControl {
     public AudioPlayer(String pName, String audioSpecification) {
         super(pName);
         this.audioSpecification = audioSpecification;
-        mediaType.getType();
     }
 
     //makes the object "play"
