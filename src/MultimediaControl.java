@@ -1,13 +1,16 @@
-//Zechariah Dominguez Date: 09/29/2018
-//interface that declares audio action methods for AudioPlayer
+/**
+ @Author Zechariah Dominguez Date: 09/29/2018
+ interface declaring all the functions needed for both
+ audio players and movie players
+ **/
 
-public interface MultimediaControl {
+interface MultimediaControl {
 
-    public void play();
+    void play();
 
-    public void stop();
+    void stop();
 
-    public void previous();
+    void previous();
 
-    public void next();
+    void next();
 }

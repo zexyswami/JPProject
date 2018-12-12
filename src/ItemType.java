@@ -1,10 +1,12 @@
-//Zechariah Dominguez Date: 09/29/2018
-//enum that holds Constant device types
+/**
+ @Author Zechariah Dominguez Date: 09/29/2018
+ Enum that holds constant values for the type of Product
+ **/
 
 public enum ItemType {
-    AU ("Audio"), VI ("Visual"), AM ("AudioMobile"), VM ("VisualMobile");
+    AUDIO ("AU"), VISUAL ("VI"), AUDIOMOBILE ("AM"), VISUALMOBILE ("VM");
 
-    private String type;
+    private final String type;
 
     ItemType(String spec){
         this.type = spec;
