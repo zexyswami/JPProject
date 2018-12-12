@@ -11,8 +11,11 @@ This program does not have a runnable jar and inputs are hard coded, the only cl
 ## Built With
 
 Intellij:
+---
 Version: 2018.3.1
+---
 Build: 183.4588.61
+---
 plugins helped clean up any errors or bugs in written code and had comprehendable github functionality
 
 ## Author
